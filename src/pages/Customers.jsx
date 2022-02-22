@@ -4,6 +4,11 @@ import Table from '../components/table/Table'
 
 import customerList from '../assets/JsonData/customers-list.json'
 
+
+
+// import AFB from "../../src//poup//PopUp"
+
+
 const customerTableHead = [
     '',
     'name',
@@ -46,6 +51,7 @@ const Customers = () => {
                                 renderBody={(item, index) => renderBody(item, index)}
                             />
                         </div>
+       
                     </div>
                 </div>
             </div>
